@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - StudentHub</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>StudentHub Portal</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html" aria-current="page">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Register</li>
+        </ol>
+    </nav>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="register-heading">
+            <h2 id="register-heading">Create an Account</h2>
+            <form action="login.html">
+                <fieldset>
+                    <legend>Account Information</legend>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required aria-required="true"><br><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required aria-required="true"><br><br>
+                    <label for="newPassword">Password:</label>
+                    <input type="password" id="newPassword" name="newPassword" required aria-required="true"><br><br>
+                    <button type="submit">Register Account</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub.</p>
+    </footer>
+</body>
+</html>

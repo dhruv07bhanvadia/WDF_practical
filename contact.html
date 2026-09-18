@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - StudentHub</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>StudentHub Portal</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Contact</li>
+        </ol>
+    </nav>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Support</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Support Request Form</legend>
+                    <label for="userName">Full Name:</label>
+                    <input type="text" id="userName" name="userName" required aria-required="true">
+                    <br><br>
+                    <label for="userMessage">Message:</label><br>
+                    <textarea id="userMessage" name="userMessage" rows="4" cols="30" required aria-required="true"></textarea>
+                    <br><br>
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub.</p>
+    </footer>
+</body>
+</html>

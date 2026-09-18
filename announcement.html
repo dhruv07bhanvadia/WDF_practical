@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements - StudentHub</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>Campus Noticeboard</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="grades.html">Grades</a></li>
+                <li><a href="announcement.html" aria-current="page">Announcements</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li aria-current="page">Announcements</li>
+        </ol>
+    </nav>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="notices-heading">
+            <h2 id="notices-heading">Recent Announcements</h2>
+            
+            <article aria-labelledby="notice1">
+                <h3 id="notice1">Midterm Schedules Released</h3>
+                <p>Published on: <time datetime="2026-09-20">Sept 20, 2026</time></p>
+                <p>Check the examination portal for your specific timetable.</p>
+            </article>
+
+            <article aria-labelledby="notice2">
+                <h3 id="notice2">New Portal Launch</h3>
+                <p>Published on: <time datetime="2026-09-18">Sept 18, 2026</time></p>
+                <p>Welcome to the updated, accessibility-ready student portal.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub.</p>
+    </footer>
+</body>
+</html>

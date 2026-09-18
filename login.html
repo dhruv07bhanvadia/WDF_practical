@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - StudentHub</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>StudentHub Portal</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" aria-current="page">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Login</li>
+        </ol>
+    </nav>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="login-heading">
+            <h2 id="login-heading">Student Login</h2>
+            <form action="dashboard.html">
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" name="studentId" required aria-required="true">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required aria-required="true">
+                <br><br>
+                <button type="submit">Log In</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub.</p>
+    </footer>
+</body>
+</html>

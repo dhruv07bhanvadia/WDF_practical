@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades - StudentHub</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>Academic Record</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="grades.html" aria-current="page">Grades</a></li>
+                <li><a href="announcement.html">Announcements</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li aria-current="page">Grades</li>
+        </ol>
+    </nav>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="grades-heading">
+            <h2 id="grades-heading">Latest Results</h2>
+            <table aria-describedby="grades-heading" border="1">
+                <caption>Semester Grades Summary</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Course Title</th>
+                        <th scope="col">Final Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Database Management</td>
+                        <td>B+</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub.</p>
+    </footer>
+</body>
+</html>
